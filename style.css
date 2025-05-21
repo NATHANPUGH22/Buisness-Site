@@ -149,3 +149,48 @@ h4 {
 h2 {
     color: white;
 }
+
+.navbar {
+    background-color: #1f1f1f; /* Dark modern look */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ff5722;
+    color: #fff;
+  }
+  
+  /* Optional active link style */
+  .navbar a.active {
+    background-color: #ff5722;
+    color: #fff;
+  }
+
+  /* Hero Section */
+.hero-section1{
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
